@@ -3,12 +3,15 @@ These instructions are a work-in-progress. As problems are noted or suggestions 
 
 Below are some reference images of the assembled model. 
 
-[<img src="images/Actual/Faux_and_Real_3.jpeg" height="256">](images/Actual/Faux_and_Real_3.jpeg)
-[<img src="images/Actual/Full_Portrait_Kbd_2.jpeg" height ="256">](images/Actual/Full_Portrait_Kbd_2.jpeg)
-[<img src="images/Actual/Faux_and_Real_Back.jpeg" height ="256">](images/Actual/Faux_and_Real_Back.jpeg)
-
-[<img src="images/Model/Full_Front.jpeg" height ="256">](images/Model/Full_Front.jpeg)
-[<img src="images/Model/Full_Back.jpeg" height ="256">](images/Model/Full_Back.jpeg) 
+[<img src="images/Actual/BoxShot.jpeg" height ="256">](images/Actual/BoxShot.jpeg)
+[<img src="images/Actual/Booting.jpeg" height ="256">](images/Actual/Booting.jpeg)
+[<img src="images/Actual/FrontLeft.jpeg" height ="256">](images/Actual/FrontLeft.jpeg)
+[<img src="images/Actual/FrontTop.jpeg" height ="256">](images/Actual/FrontTop.jpeg)
+[<img src="images/Actual/Doom.jpeg" height="256">](images/Actual/Doom.jpeg)
+[<img src="images/Actual/SideViewBooted.jpeg" height ="256">](images/Actual/SideViewBooted.jpeg)
+[<img src="images/Actual/ObliqueView.jpeg" height ="256">](images/Actual/ObliqueView.jpeg)
+[<img src="images/Actual/SideView.jpeg" height="256">](images/Actual/SideView.jpeg)
+[<img src="images/Actual/BackView.jpeg" height="256">](images/Actual/BackView.jpeg)
 
 ## Required Supplies
 
@@ -24,19 +27,29 @@ Below are some reference images of the assembled model.
 * **Wires**
 	* **Bits of Wire**. You'll need a few bits of wire to connect the Pi 5 to the soft power switch, the Boost Converter to power out from the Pi, and the display to the Boost converter.
 	* **Wired Connectors**. To make FauxNeXT easier to assemble/dis-assemble you may wish to use [wires with connectors](https://www.amazon.com/gp/product/B0CKYNMGHL) between various components. You can see where I used connectors in the [images of the wiring](#WiringImages).
+	* **Wired Dupont Connectors**. You'll need (4) wires, (2) black and (2) red, with a female Dupont connector on one end of each. If you have a female/female dupont cable you can cut it in half to get two. These are readily available from lots of sources. For example, [here is a set](https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTJQGS6) from Amazon. 
 
 ### Required Hardware
 
-# JP: Pick up here.
+You will need an assortment of screws and magnets to assemble the model:
 
-You will need an assortment of screws to assemble the model:
-
-* (2) M3x6 cap head screws for the USB-C breakout board
-* (2) M3x4 cap head screws for the Boost Converter
-* (4) M2x4 cap head screws to attach the Raspberry Pi to the *Main Case*.
-* (4) M3x4 cap head screws to attach the display board to the *Display Retainer*
-* (4) M3x6 cap head screws to attach the *Display Retainer* to the *Front*
-* (8) 6mm round magents (3mm deep) to attach the *Front* to the *Main Case*
+* (8) M3x4 countersunk screws
+  * (4) To attach the *Back_Plate* to the *Rear_Shell*
+  * (4) To attach the *Display_Retainer* to the *Bezel*
+* (6) M3x4 cap head screws
+	* (2) To attach the *Shroud* to the *Rear_Shell*
+	* (2) To attach the Boost Converter to the *Display_Retainer*
+	* (2) To attach the display board to the *Display_Retainer*
+* (6) M2x4 cap head screws
+	* (4) To attach the Raspberry Pi to the *Rear_Shell* and *Shroud*
+	* (2) To attach the strain relief to the *Back_Plate*
+* (2) M3x6 cap head screws to clamp the display board with the *Display_Retainer_Clamps*
+* (3) M4 Washers
+  * (2) For the *HingeElement* (on on each side)
+  * (1) For the hinge bolt
+* (8) 6mm round magents (3mm deep) to attach the *Bezel* to the *Shroud*
+* (1) M4x90 screw for the hinge area. If you decide to glue the hinge into a fixed position, this is not needed. [Available on Amazon](https://www.amazon.com/gp/product/B07CHFTJKN).
+* (1) M4x120 threaded rod for the rolling feet. If you use the fixed feet, this is not needed. [Available on Amazon](https://www.amazon.com/dp/B0C94ZD458).
 
 Refer to the [reference images](#HardwarePlacement) in the Assembly section for placement.
 
@@ -44,126 +57,106 @@ Refer to the [reference images](#HardwarePlacement) in the Assembly section for 
 
 I used PLA for all components, but for no other reason than it is what I normally use and my models won't be in an environment where the properties of other filaments will be required. If this turns out to be untrue, I will update this note.
 
-* **Beige Filament**:
-	* The *Main Case*, *Front*, and *Keyboard Shell* should be printed in a beige-ish Filament to match the Macintosh. My most recent print used [Polymaker Matte PLA "Muted White"](https://www.amazon.com/gp/product/B09TR8N5T2). I'm interested in other suggestions for filaments that match the Macintosh better. Another option is to print the model in a neutral white and spray paint it with a matching paint.
-	* The *Display Retainer* can be printed in any color, so if you have the beige loaded in your printer, you can just use that.
+* **Black**:
+	* All of the parts are printed in black. I haven't color matched the original MPD. I've tried a couple of blacks and at the moment am using [Hatchbox](https://www.amazon.com/gp/product/B00J0ECR5I), but I plan to try a matte black as well and may update this note.
+	* The internal parts such as the Display_Retainer can be printed in whatever filament is convenient.
+	* If you are using the rolling version of the front feet, you could experiment with a softer filament to give them some grip. I have not done so.
 
 ### Other
-* **CA Glue**: A small amout of CA glue is needed to attach magnets to the *Front* and the *Main Case*.
+* **CA Glue**: A small amout of CA glue is needed to attach various parts together. At a minimum you will need glue to attach magnets to the *Bezel* and the *Shroud*. Yo umay choose to use glue in other spots versus screws. Anywhere this is an option it will be called out below.
 * **Patience**: This can go a long way towards a successful build.
+
+## Gluing vs. Screwing
+
+There are several parts of the model that are screwed together so that it can be disassembled. This was important when I was building and refining the model, but you may decide that you want it attached together permanently and choose to use glue rather than screws. Here are the places where this is an option:
+
+* Connecting the *Fin_Area* to the *Shroud*: The *Fin_Area* into a dovetail in the *Shroud* and is held in place with the *Top_Retainer*. Alternatively you can just add some CA glue before sliding the parts together and skip the retainer and screws.
+* Connecting the *Hinge_Center* to the *Shroud*: These parts are normally connected using two M4 screws, but you can choose to use glue instead. I'm a bit leary of this option, but it should be plenty strong.
+* Connecting the *Rear_Shell* to the *Fin_Area*: These parts are normally held together with (4) screws, but they can be glued together. Note that alignment is critical since the raspberry pi spans these parts and the screw holes used to mount the Pi must be aligned properly.
+* Connecting the *Fixed_Feet* to the *Main_Leg*: If you don't want the roller feet to actually roll, you can glue the *Fixed_Feet* into the *Main_Leg*
+* Connecting the *Hinge_Center* to the *Main_Leg*: If you don't need the display to pivot up and down on the base, you can glue these components together rather than using the long M4 bolt. The glue joint must be strong since this supports the full weight of the main display.
 
 ## Printing the Parts
 
-Printing and assembling this model will take some time. The largest part, the *Main Case*, requires supports and takes me about 6 hours to print on a BambuLab X1. All of the STLs will import into your slicer in the orientation in which I printed them. STLs that need supports have “(NS)” in the name. I used tree supports and removing them was fairly easy. All parts may be printed with a 0.2mm layer height.
+Printing and assembling this model will take some time. Several of the components took 3+ hours to print on a BambuLab X1. All models are provided as `.3mf` files rather than `.stl` files. They will work the same in your slicer of choice. All of the 3MFs will import into your slicer in the orientation in which I printed them. Components that need supports have “(NS)” in the name. I used tree supports and removing them was fairly easy. All parts may be printed with a 0.2mm layer height. Some of the components have multiple options listed below. Print only one of each option.
 
-* ***Main Case (NS).stl***. This is the largest single print and, as the name shows, it requires supportsfor the handle area. Your slicer may recommend tiny supports at two of the bottom corners. it is up to your printer whether they are really required.
-* ***Face (NS).stl***. This component requires supports for the display opening. Your slicer may want to add supports for the magnet recesses. I don't find them to be necessary so you can suppress supports in those four areas.
-* ***Display Retainer (NS).stl***. This part screws into the *Face* to hold the display in place. It also provides a spot to mount the controller board for the display. It requires supports, but they are minimal and easy to remove.
-* ***Keyboard Shell (NS).stl***. This standalone component houses the small wireless keyboard. It is listed as requiring supports, though technically it doesn't if printed in it's natural orientation. I print it on end to avoid stair-step ridges in the top of the shell. You can re-orient it to avoid supports if you prefer.
+* [OPTION] ***Back_Plate_Pi4.3mf*** OR ***Back_Plate_Pi5.3mf***: Choose the back plate option that corresponds to the Raspberry Pi model that you are using (Pi 4 or Pi 5). This prints the back cover and a strain relief that is used for the power cable.
+* ***Bezel.3mf***. This is the front of the display and the part you will see the most. Make sure to use a smooth, clean surface when printing this.
+* ***Display_Retainer.3mf***. This interior component consists of the main display bracket and two small clips that are used to hold one side of the display board. The other side of the board is screwed directly into the retainer.
+* ***End_Caps.3mf***. This consists of two copies of the same cap. One cap will go into each side of the hinged are of the base to conceal the hardware.
+* ***Fin_Area (NS).3mf***. This model prints on the flat base which means it sits on the bed at an angle. Supports are required to print the top lip properly.
+* [OPTION] ***Fixed_Feet.3mf*** OR ***Rolling_Feet.3mf***. If you'd like the "roller feet" to actually roll, print the rolling version, otherwise print the fixed version. Each option contains two feet.
+* ***Hinge_Center.3mf***. This gets screwed into the shroud and is a simple print.
+* ***Main_Leg (NS).3mf***. This part is printed on it's side and does require supports. Note however that sacrifical supports are built in to the two lower holes. This is a single layer that allows your printer to bridge an area rather than support it. In this model you can break the bridge by inserting the bolt and pushing through that layer. See [this image](images/Model/LegSupports.jpeg) of the model in a slicer where I set the areas where supports are not needed.
+* ***Rear_Shell.3mf***. This component is oriented such that it does not need supports for the grate area. However, if your printer does not handle bridges well, you may need supports in the "grate" area.
+* ***Shroud.3mf***. This component does require  some small bridges, but does not require supports.
+* ***Top_Retainer.3mf***. This component supports the *Fin_Area* after it slides into the *Shroud*. If you plan to glue the parts together, this part is not required.
 
 ## Assembly
 
-After printing the parts, removing supports, and doing any other cleanup/post-processing that you deem necessary, you are ready to assemble the model. The steps below are for the physical assembly, but you'll need to do the wiring along the way. An overview of the wiring is given in a separate section, but is called out in the steps below. 
+After printing the parts, removing supports, and doing any other cleanup/post-processing that you deem necessary, you are ready to assemble the model. The steps below are for the physical assembly, but you'll need to do the wiring along the way. An overview of the wiring is given in a separate section, but is called out in the steps below.
+
+This exploded view of the model gives a sense of the main components and how they relate to one another.
+[<img src="images/Assembly/ExplodedView.jpeg" width="256">](images/Assembly/ExplodedView.jpeg)
 
 All of the screws mount directly into the plastic of the model. You may want to run some screws into the holes a bit to make it easier to start the screws during the actual assembly process. Do no over-tighten.
 
-1. Using a small dab of CA glue, affix a magnet into each corner of the *Main Case*. You will notice that the bottom two magents are slightly recessed (about 1mm). To establish the proper orientation for the four remaining magnets, stick them magnetically to the glued magnets. Make a mark on the visible face of these magnets. The mark should indicate which corner that magnet goes in, and its orientation. For example, you might write "LL" on the magnet that goes in the lower left corner.
-1. Using a small dab of CA glue, affix one of the marked magnets into each corner of the *Face*. The marked face of the magnet goes into the recess. It is critical to get the orientation right, so double-check before gluing.
-2. ***Perform wiring as [described below](#Wiring)***
-1. Very carefully thread the flat-flex cable from the display through the *Display Retainer* and connect it to the connector on the display board. It is very easy to rip this cable and extremely hard to fix it. [See this photo](images/Assembly/Assemble_Display_1.jpeg) proper orientation.
-  * **NOTE**: At this point you should have soldered wires to the back of the display board if you are not going to use the barrel connector.
-1. Screw the display board to the back of the retainer as [shown here](images/Assembly/Assemble_Display_2.jpeg).
-1. Peel off the clear protective plastic from the front of the display, then attach the display, display board, and *Display Retainer* to the back of the *Face* using four screws.
-1. Install the Raspberry Pi using four M2 screws.
-2. Install the power switch
-1. Secure the USB C breakout board using two M3 screws
-1. Secure the Boost Converter using two M3 screws
-1. After testing the unit, snap the *Front* to the *Main Case*. the magnets will hold it in place.
-2. I put a small self-adhering rubber foot at each corner of the bottom of the *Main Case* to make it less likely to slide. This is completely optional. I used some feet I happened to have lying around, so I'm not sure exactly what they are. They look like [these](https://www.amazon.com/Adhesive-Drawers-Furniture-Dampening-Transparent/dp/B08NX9KXQP).
+1. Magnets
+  2. Using a small dab of CA glue, affix a magnet into each corner of the *Shroud*. To establish the proper orientation for the four remaining magnets, stick them magnetically to the glued magnets. Make a mark on the visible face of these magnets. The mark should indicate which corner that magnet goes in, and its orientation. For example, you might write "LL" on the magnet that goes in the lower left corner.
+  1. Using a small dab of CA glue, affix one of the marked magnets into each corner of the *Bezel*. The marked face of the magnet goes into the recess. It is critical to get the orientation right, so double-check before gluing.
+1. Peel off the clear protective plastic from the front of the display and place it into the recess in the *Bezel*. Now lay the *Display_Retainer* on top of the display and attach with (4) countersunk M3x4 screws. Place the display board on top of the *Display_Retainer* and attach the left side with M3 screws. Using the clips that printed with the *Display_Retainer*, secure the right side of the display board.
+2. Very carefully attach the flat-flex cable from the display to the connector on the display board. It is very easy to rip this cable and extremely hard to fix it. [See this photo](images/Assembly/NNN.jpeg) proper orientation.
+3. Using (4) M3 screws, attach the *Fin_Area* to the *Rear_Shell*. The screws are inserted from the *Fin_Area* and thread into the *Rear_Shell*.
+1. Install the Raspberry Pi using four M2 screws. Note that two screws go into the *Rear_Shell* and the other (2) go into the *Fin_Area*.
+2. If you're using a Raspberry Pi 5, install the power switch into the *Back_Plate*
+3. The USB-C connector from your power supply routes through the opening in the *Rear_Shell* and is held in place by the strain relief. Route the cable through the strain relief pieces as shown [here](images/Assembly/SR1.jpeg) and [here](images/Assembly/SR2.jpeg). Adjust the length of the cable on the inside of the *Rear_Shell* so that it comfortably reaches the USB port on the Pi. Secure the strain relief to the *Back_Plate* using (2) M2 screws
+2. Perform the wiring as described below.
+1. After testing the unit, snap the *Bezel* to the *Shroud*. The magnets will hold it in place.
 2. Have a break then move on to Software Setup.
 
 <a name="HardwarePlacement"></a>**Hardware Placement**:
 
-[<img src="images/Assembly/HW/Magnets_Face.jpeg" height ="256">](images/Assembly/HW/Magnets_Face.jpeg)
-[<img src="images/Assembly/HW/Magnets_Main_Case.jpeg" height ="256">](images/Assembly/HW/Magnets_Main_Case.jpeg)
-[<img src="images/Assembly/HW/Face_Screws.jpeg" width="256">](images/Assembly/HW/FaceScrews.jpeg)
-[<img src="images/Assembly/HW/Main_Case_Screws.jpeg" width="256">](images/Assembly/HW/Main_Case_Screws.jpeg)
+[<img src="images/Assembly/HW/HingeScrew.jpeg" width="256">](images/Assembly/HW/HingeScrew.jpeg)
+[<img src="images/Assembly/HingeBolt.jpeg" width="256">](images/Assembly/HingeBolt.jpeg)
+[<img src="images/Assembly/HW/FootAxle.jpeg" width="256">](images/Assembly/HW/FootAxle.jpeg)
+[<img src="images/Assembly/HW/ShroudHW.jpeg" width="256">](images/Assembly/HW/ShroudHW.jpeg)
+[<img src="images/Assembly/HW/InnerScrews.jpeg" height="256">](images/Assembly/HW/InnerScrews.jpeg)
+[<img src="images/Assembly/HW/BackPlateScrews.jpeg" height ="256">](images/Assembly/HW/BackPlateScrews.jpeg)
+[<img src="images/Assembly/HW/BezelHW.jpeg" width="256">](images/Assembly/HW/BezelHW.jpeg)
+[<img src="images/Assembly/SlideOnFins.jpeg" width="256">](images/Assembly/SlideOnFins.gif)
 
 <a name="Wiring"></a>
 ## Wiring
 
-The wiring is fairly simple. You can see most of it in the photos. I will trace through the connections starting with the USB-C connector. Depending on how much you want to facilitate disassembly and changes, you may wish to use two prong connectors at certain spots. Refer to the images to see where I used connectors.
+The wiring is fairly simple as you can see in the photos. I will trace through the connections starting with the USB-C power from the power supply. Depending on how much you want to facilitate disassembly and changes, you may wish to use two prong connectors at certain spots. Refer to the images to see where I used connectors.
 
-1. Connect `VBUS` on the USB breakout board to one leg of the power switch.
-1. Connect the other leg of the power with to the positive (red) leg of the USB Cable End.
-1. Also connect the same leg of the power switch to `IN+` on the Boost converter.
-1. Connect `GND` on the USB breakout board to `IN-` on the Boost converter.
-1. Also Connect `GND` on the USB breakout board to to the ground (usually black or white) leg of the USB Cable End.
-1. Output from the Boost Converter. You have a couple of options here:
-    2. Connect the outputs of the boost converter (`OUT+` and `OUT-`) to a cable with a male barrel connector on the end. It should correspond to the female barrel connector on the display. Plug in the barrel connector.
-    3. *Alternatively*, solder a red wire and a black wire to the back of the display board. If you look at the board near the barrel jack you'll see pads labeled `12V` and `GND`. You can use those or solder directly to the  legs of the barrel connector. If you use this method, it is convent to put some type of 2-pin connector between the Boost converter and display so they can be separated easily. This is the approach I took. See the reference photo.
-    4. **Important**: Adjust the Boost Converter output to 12V. If the voltage is too high, it may damage your controller board.
-1. Connect the angled HDMI connector to the input of the display board.
-1. Connect the free end of the HDMI cable to the Raspberry Pi.
-1. Plug the USB Cable End into the Raspberry Pi.
+1. The USB-C connector from the power supply threads through the strain relief and connects directly to the Pi. You can do this right before screwing the *Back_Plate* to the *Rear_Shell*.
+1. Power for the display is taken from the 5V pins of the Pi and connects to the input of the boost converter which is mounted to the *Display_Retainer*.
+	* I use connector between the Pi and the boost converter for easier assembly (and disassembly).
+	* Use two pairs of wires with Dupont connectors attached to the Pi's GPIO headers as [shown here](images/Wiring/GPIOConnections.jpeg).
+	* The pair of red wires (5V) connects to the red side of a wired connector. The pair of black wires (ground) connects to the black side of the same wired connector.
+	* The mating part of the wired connector goes to the input of the boost converter.
+	* **Important**: Adjust the Boost Converter output to 12V. If the voltage is too high, it may damage your controller board.
+1. Using one of the four-wire cables supplied with the display board, solder the white and yellow leads to the positive output of the boost converter. Solder the black and red leads to the negative output of the boost converter. I know this seems like odd use of colors, but this is how the connector on the display board is wired. Check the underside of your diplay board to be sure.
+1. If you are using a Raspberry Pi 5 you can now add the soft power button. If you are using a Pi 4, skip this step.
+  * Connect one side of a wired connector to the two terminals on the switch. Colors don't matter.
+  * Solder the mating side of the wired connector to the [power button pads of the Pi](images/Wiring/Pi5PowerButtonPads.jpeg). Again, colors don't matter.
+1. Connect the full size HDMI connector to the input of the display board.
+1. Connect the other end of the HDMI cable to the Raspberry Pi. It has a micro HDMI connector.
+1. Plug the end of the USB cable into the Raspberry Pi.
 
 <a name="WiringImages"></a>**Reference images**:
 
-[<img src="images/Wiring/Wiring_Case_1.jpeg" height="256">](images/Wiring/Wiring_Case_1.jpeg)
-[<img src="images/Wiring/Wiring_Case_3.jpeg" height="256">](images/Wiring/Wiring_Case_3.jpeg)
-[<img src="images/Wiring/Wiring_Full_1.jpeg" height="256">](images/Wiring/Wiring_Full_1.jpeg)
-[<img src="images/Wiring/Display_Board_Power.jpeg" height="256">](images/Wiring/Display_Board_Power.jpeg)
+[<img src="images/Wiring/RearWiring.jpeg" height="256">](images/Wiring/RearWiring.jpeg)
+[<img src="images/Wiring/FrontWiring.jpeg" height="256">](images/Wiring/FrontWiring.jpeg)
 [<img src="images/Wiring/HDMI_Cable.jpeg" width="256">](images/Wiring/HDMI_Cable.jpeg)
 
 ## Software Setup
 
-* **Prepare Raspberry Pi OS**. Create an image of the Raspberry Pi OS that is appropriate for your Pi. Don't use the Lite version - you'll need the window system installed. I used the latest OS release as of July 2024, Bookworm. Boot the OS.
-* **Adjust Screen Settings**: The display board comes with a control board with several buttons. The boards are connected to one another through a fairly flat 6-wire cable. You won't be using the control board in normal operation, but you may wish to connect it during initial setup to adjust things like input source, brightness, etc. After that you can remove the control board and cable and only reattach it if needed.
-* **Flip the display orientation**. Because of the placement of ports on the display, it must be mounted upside down in the case. This means that the display orientation needs to be flipped 180&deg;. This is accomplished using the Screen Preferences in the Raspberry Pi desktop. Selected the inverted option.
-
-	[<img src="images/SW/ScrPrefs.png" width="256">](images/SW/ScrPrefs.png)
-	[<img src="images/SW/Inverted.png" width="256">](images/SW/Inverted.png)
-
-  Once you've done this, the Window System will display properly. Note, however, that as the Pi is booting, everything will appear upside down until the window system launches.
-* **Build the Mac emulator: Basilisk II**. Please refer to the instructions on [GitHub](https://github.com/kanjitalk755/macemu) to learn how to build Basilisk II. I have included my general process below, but you should always use the newest instructions from GitHub. The build instructions boil down to entering these commands into the shell:
-
-		```
-		cd ~
-		# Get the required dependencies
-		sudo apt install git libsdl2* automake samba samba-common smbclient libmpc-dev -y
-		# Get the emulator
-		git clone https://github.com/kanjitalk755/macemu.git
-		# Perform the build
-		cd macemu/BasiliskII/src/Unix
-		./autogen.sh
-		sudo make install
-		```
-* **Get a ROM file**: The emulator needs a copy of a ROM image from an old Mac. You can download it using the command below and place it in the `~/emulator_resources` directory:
-	
-		```
-		cd ~/emulator_resources
-		# Get the ROM file
-		wget https://raw.githubusercontent.com/ekbann/chromebook-basilisk2-sdl2/main/Quadra800.ROM
-		```
-* **Create a Basilisk prefs file**. This file points to your ROM file and your disk image. It also specifies a directory on your Pi which will appear as a shared disk on your virtual Mac desktop. If you want the emulator to start full screen, use the file as-is. If you'd like to start in a window, comment out `screen dga/512/342` by adding a `#` at the beginning. Uncomment the other `screen` line by removing the `#`.
-Here is how I create mine:
-
-	   ```
-		mkdir ~/.config/
-		mkdir ~/.config/BasiliskII
-		echo "rom /home/pi/emulator_resources/Quadra800.ROM
-		disk /home/pi/emulator_resources/System7.5.5.dsk
-		ramsize 142606336
-		# ether slirp
-		nocdrom true
-		extfs /home/pi/emulator_resources/shared
-		frameskip 0
-		modelid 14
-		cpu 4
-		fpu true
-		#screen win/512/342/1
-		screen dga/512/342
-		displaycolordepth 8" > ~/.config/BasiliskII/prefs
-	   ```
-* **Create/Obtain a Mac Disk Image**: This is the trickiest part of the emulator setup process and I won't repeat all the details here. I supply an image as part of this repository, but it is not allowed. Please refer to [these instructions](https://www.emaculation.com/doku.php/sheepshaver_basiliskii_linux). You may find it easiest to run Basilisk on a Mac or Windows machine and create the image there. Then you can just copy it to your FauxNeXT and place it in the `~/emulator_resources` directory. As you can see in the `prefs` file mentioned above, my disk image is in a file named `System7.5.5.dsk`.
-
+* **Prepare Raspberry Pi OS**. Create an image of the Raspberry Pi OS that is appropriate for your Pi. Don't use the Lite version - you'll need the window system installed. I used the latest OS release as of August 2024, Bookworm. Boot the OS and customize as you like.
+* **Adjust Screen Settings**: The display board comes with a control board with several buttons. The boards are connected to one another with supplied cable. You won't be using the control board in normal operation, but you may wish to connect it during initial setup to adjust things like input source, brightness, volume, etc. After that you can remove the control board and cable and only reattach it if needed.
+* **Install the emulator**: Download, build, and install the "previous" NeXT emulator. The repository is here: [https://sourceforge.net/projects/previous/](https://sourceforge.net/projects/previous/). The repository contains notes on how to build and run the emulator.
+* **Compute like it's 1988**:
+	1. Find some [NeXT software](https://fsck.technology/software/NeXT/)
+	2. Install it
+	3. Let fun ensue 

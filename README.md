@@ -1,6 +1,6 @@
 # FauxNeXT
 
-[<img src="images/Actual/FrontLeft.jpeg" height="256">](images/Actual/FrontLeft.jpeg)
+[<img src="images/Actual/BoxShot.jpeg" height="256">](images/Actual/BoxShot.jpeg)
 [<img src="images/Actual/FrontTop.jpeg" height="256">](images/Actual/FrontTop.jpeg)
 
 This repository contains the instructions for building a 50% scale Faux [NeXT Computer](https://en.wikipedia.org/wiki/NeXT_MegaPixel_Display). At the moment, the repository contains only the NeXT MegaPixel Display (MPD), but in the future it will also be home to a 3D Model for a NeXTstation to go along with it (and perhaps a Sound Box). The display houses a Raspberry Pi which can run an emulator, named [**previous**](https://sourceforge.net/projects/previous/), that brings the NeXT software to life.
