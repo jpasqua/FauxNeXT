@@ -109,7 +109,7 @@ All of the screws mount directly into the plastic of the model. You may want to 
 3. Using (4) M3 screws, attach the *Fin_Area* to the *Rear_Shell*. The screws are inserted from the *Fin_Area* and thread into the *Rear_Shell*.
 1. Install the Raspberry Pi using four M2 screws. Note that two screws go into the *Rear_Shell* and the other (2) go into the *Fin_Area*.
 2. If you're using a Raspberry Pi 5, install the power switch into the *Back_Plate*
-3. The USB-C connector from your power supply routes through the opening in the *Rear_Shell* and is held in place by the strain relief. Route the cable through the strain relief pieces as shown [here](images/Assembly/SR1.jpeg) and [here](images/Assembly/SR2.jpeg). Adjust the length of the cable on the inside of the *Rear_Shell* so that it comfortably reaches the USB port on the Pi. Secure the strain relief to the *Back_Plate* using (2) M2 screws
+3. The USB-C connector from your power supply routes through the opening in the *Rear_Shell* and is held in place by the strain relief. Route the cable through the strain relief pieces as shown [here](images/Assembly/SR1.jpeg) and [here](images/Assembly/SR2.jpeg). Adjust the length of the cable on the inside of the *Rear_Shell* so that it comfortably reaches the USB port on the Pi. Secure the strain relief to the *Back_Plate* using (2) M2 screws. When it is done, it will [look like this](images/Assembly/StrainReliefInstalled.jpeg) from the back.
 2. Perform the wiring as described below.
 1. After testing the unit, snap the *Bezel* to the *Shroud*. The magnets will hold it in place.
 2. Have a break then move on to Software Setup.
@@ -155,7 +155,20 @@ The wiring is fairly simple as you can see in the photos. I will trace through t
 
 * **Prepare Raspberry Pi OS**. Create an image of the Raspberry Pi OS that is appropriate for your Pi. Don't use the Lite version - you'll need the window system installed. I used the latest OS release as of August 2024, Bookworm. Boot the OS and customize as you like.
 * **Adjust Screen Settings**: The display board comes with a control board with several buttons. The boards are connected to one another with supplied cable. You won't be using the control board in normal operation, but you may wish to connect it during initial setup to adjust things like input source, brightness, volume, etc. After that you can remove the control board and cable and only reattach it if needed.
-* **Install the emulator**: Download, build, and install the "previous" NeXT emulator. The repository is here: [https://sourceforge.net/projects/previous/](https://sourceforge.net/projects/previous/). The repository contains notes on how to build and run the emulator.
+* **Install the emulator**: Download, build, and install the "previous" NeXT emulator. The repository is here: [https://sourceforge.net/projects/previous/](https://sourceforge.net/projects/previous/). The repository contains notes on how to build and run the emulator. These images show the options I have set in the emulator:
+  * [System](images/SW/System.png)
+  * [ROM](images/SW/ROM.png): The locations listed are the default install locations for the ROMs. you shouldn't need to change this.
+  * [Display](images/SW/Graphics.png)
+  * [Network](images/SW/Network.png)
+  * [Boot](images/SW/Boot.png): For the first boot you may wish to enable “Perform power-on test” to ensure everything is ok.
+  * [SCSI](images/SW/SCSI.png)
+  * [Magneto-Optical](images/SW/MO.ng)
+  * [Floppy](images/SW/Floppy.jpeg)
+  * [Keyboard](images/SW/Keyboard.png)
+  * [Mouse](images/SW/Mouse.png)
+  * [Sound](images/SW/Sound.png)
+  * [Printer](images/SW/Printer.png)
+
 * **Compute like it's 1988**:
 	1. Find some [NeXT software](https://fsck.technology/software/NeXT/)
 	2. Install it
