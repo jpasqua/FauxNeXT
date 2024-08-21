@@ -3,7 +3,7 @@
 [<img src="images/Actual/BoxShot.jpeg" height="256">](images/Actual/BoxShot.jpeg)
 [<img src="images/Actual/FrontTop.jpeg" height="256">](images/Actual/FrontTop.jpeg)
 
-This repository contains the instructions for building a 50% scale Faux [NeXT Computer](https://en.wikipedia.org/wiki/NeXT_MegaPixel_Display). At the moment, the repository contains only the NeXT MegaPixel Display (MPD), but in the future it will also be home to a 3D Model for a NeXTstation to go along with it (and perhaps a Sound Box). The display houses a Raspberry Pi which can run an emulator, named [**previous**](https://sourceforge.net/projects/previous/), that brings the NeXT software to life.
+This repository contains the instructions for building a 50% scale Faux [NeXT Computer](https://en.wikipedia.org/wiki/NeXT_MegaPixel_Display). At the moment, the repository contains only the NeXT MegaPixel Display (MPD) and a Sound Box, but in the future it will also be home to a 3D Model for a NeXTstation to go along with it. The display houses a Raspberry Pi which can run an emulator, named [**previous**](https://sourceforge.net/projects/previous/), that brings the NeXT software to life.
 
 The MPD model is a reasonable facsimile of the original, but a number of liberties were taken to make the 3D printing process a little easier and to accomodate the 8" display and other electronics inside. Also, the original MPD display was grayscale, while the display used in this model can display full color. The NeXT color display was pretty generic and not very interesting to look at as a piece of retrocomputing technology.
 
@@ -25,6 +25,4 @@ If your vintage computer tastes run more towards the TRS-80 line, check out the 
 
 * **NeXTstation**: Create a printable 50% scale NeXTstation to go along with the MPD.
 * **NeXT Cube**: Maybe...
-* **Sound Box**: Create a scale model of the original sound box to house a USB speaker.
 * **External HDMI Connector**: It might be nice to be able to display on a larger screen when demonstrating the emulator to a group of people. Both the Pi 4 and 5 have a secondary HDMI port could go to an HDMI connector on the back panel.
-

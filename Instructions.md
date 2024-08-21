@@ -1,5 +1,5 @@
 # Building the FauxNeXT
-These instructions are a work-in-progress. As problems are noted or suggestions arise, I will update the instructions. Thank you for your patience. Throughout the Instructions when I am referring to a printed part, I will italicize the name. For example: *MainLeg*. As of this writing (August 2024), these instructions are only for the [NeXT MegaPixel Display](https://en.wikipedia.org/wiki/NeXT_MegaPixel_Display) (MPD). In the future other models may be added such as a [NeXTstation](https://en.wikipedia.org/wiki/NeXTstation) and/or a NeXT Sound Box.
+These instructions are a work-in-progress. As problems are noted or suggestions arise, I will update the instructions. Thank you for your patience. Throughout the Instructions when I am referring to a printed part, I will italicize the name. For example: *MainLeg*. As of this writing (August 2024), these instructions are only for the [NeXT MegaPixel Display](https://en.wikipedia.org/wiki/NeXT_MegaPixel_Display) (MPD). You can find instructions for the Sound Box here. In the future other models may be added such as a [NeXTstation](https://en.wikipedia.org/wiki/NeXTstation).
 
 Below are some reference images of the assembled model. 
 
@@ -99,7 +99,7 @@ After printing the parts, removing supports, and doing any other cleanup/post-pr
 This exploded view of the model gives a sense of the main components and how they relate to one another.
 [<img src="images/Assembly/ExplodedView.jpeg" width="256">](images/Assembly/ExplodedView.jpeg)
 
-All of the screws mount directly into the plastic of the model. You may want to run some screws into the holes a bit to make it easier to start the screws during the actual assembly process. Do no over-tighten.
+All of the screws mount directly into the plastic of the model. You may want to run some screws into the holes a bit to make it easier to start the screws during the actual assembly process. Don't over-tighten.
 
 1. Magnets
   2. Using a small dab of CA glue, affix a magnet into each corner of the *Shroud*. To establish the proper orientation for the four remaining magnets, stick them magnetically to the glued magnets. Make a mark on the visible face of these magnets. The mark should indicate which corner that magnet goes in, and its orientation. For example, you might write "LL" on the magnet that goes in the lower left corner.
@@ -112,6 +112,7 @@ All of the screws mount directly into the plastic of the model. You may want to 
 3. The USB-C connector from your power supply routes through the opening in the *Rear_Shell* and is held in place by the strain relief. Route the cable through the strain relief pieces as shown [here](images/Assembly/SR1.jpeg) and [here](images/Assembly/SR2.jpeg). Adjust the length of the cable on the inside of the *Rear_Shell* so that it comfortably reaches the USB port on the Pi. Secure the strain relief to the *Back_Plate* using (2) M2 screws. When it is done, it will [look like this](images/Assembly/StrainReliefInstalled.jpeg) from the back.
 2. Perform the wiring as described below.
 1. After testing the unit, snap the *Bezel* to the *Shroud*. The magnets will hold it in place.
+2. Apply the NeXT Logo. Print the Logo with dimensions 7.9x10mm and adhere to the *Bezel* in the small recessed area. A `.png` file of the [logo](Assets/NeXT Logo.png) is available in the Assets folder.
 2. Have a break then move on to Software Setup.
 
 <a name="HardwarePlacement"></a>**Hardware Placement**:
