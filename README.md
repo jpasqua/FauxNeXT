@@ -20,7 +20,9 @@ The STL files for FauxNeXT can be found on [printables](https://www.printables.c
 
 ## Other Models
 
-If your vintage computer tastes run more towards the TRS-80 line, check out the [Faux TRS](https://github.com/jpasqua/FauxTRS). If you're a DEC person, check out the [Faux VT100](https://github.com/jpasqua/FauxVT). For you classic Mac folks out there, take a look at the [Faux Mac](https://github.com/jpasqua/FauxMac).
+* If your vintage computer tastes run more towards the TRS-80 line, check out the [Faux TRS](https://github.com/jpasqua/FauxTRS).
+* If you're a DEC person, check out the [Faux VT100](https://github.com/jpasqua/FauxVT).
+* For you classic Mac folks out there, take a look at the [Faux Mac](https://github.com/jpasqua/FauxMac).
 
 ## Potential Future Work
 
