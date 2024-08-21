@@ -14,7 +14,7 @@ If you want to build your own, check out the [***instructions***](Instructions.m
 
 ***THIS IS A WORK IN PROGRESS***: The documentation on required electronics, wiring, and software setup is not complete. At this point you should consider yourself an tester! Please let me know of an errors or ommissions.
 
-The STL files for FauxNeXT can be found on [printables](https://www.printables.com/model/NNN).
+The STL files for FauxNeXT can be found on [printables](https://www.printables.com/model/981960).
 
 ***This model may not be used for commercial purposes as noted in the license***.
 
