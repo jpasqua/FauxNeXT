@@ -157,14 +157,14 @@ The wiring is fairly simple as you can see in the photos. I will trace through t
 * **Prepare Raspberry Pi OS**. Create an image of the Raspberry Pi OS that is appropriate for your Pi. Don't use the Lite version - you'll need the window system installed. I used the latest OS release as of August 2024, Bookworm. Boot the OS and customize as you like.
 * **Adjust Screen Settings**: The display board comes with a control board with several buttons. The boards are connected to one another with supplied cable. You won't be using the control board in normal operation, but you may wish to connect it during initial setup to adjust things like input source, brightness, volume, etc. After that you can remove the control board and cable and only reattach it if needed.
 * **Install the emulator**: Download, build, and install the "previous" NeXT emulator. The repository is here: [https://sourceforge.net/projects/previous/](https://sourceforge.net/projects/previous/). The repository contains notes on how to build and run the emulator. These images show the options I have set in the emulator:
-  * [System](images/SW/System.png)
+  * [System](images/SW/System.jpeg)
   * [ROM](images/SW/ROM.png): The locations listed are the default install locations for the ROMs. you shouldn't need to change this.
   * [Display](images/SW/Graphics.png)
   * [Network](images/SW/Network.png)
-  * [Boot](images/SW/Boot.png): For the first boot you may wish to enable “Perform power-on test” to ensure everything is ok.
-  * [SCSI](images/SW/SCSI.png)
-  * [Magneto-Optical](images/SW/MO.ng)
-  * [Floppy](images/SW/Floppy.jpeg)
+  * [Boot](images/SW/Boot.jpeg)
+  * [SCSI](images/SW/SCSI.jpeg)
+  * [Magneto-Optical](images/SW/MO.png)
+  * [Floppy](images/SW/Floppy.png)
   * [Keyboard](images/SW/Keyboard.png)
   * [Mouse](images/SW/Mouse.png)
   * [Sound](images/SW/Sound.png)
