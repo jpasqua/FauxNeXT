@@ -16,8 +16,6 @@ If you want to build your own, check out the [***instructions***](Instructions.m
 
 The STL files for FauxNeXT can be found on [printables](https://www.printables.com/model/981960).
 
-***This model may not be used for commercial purposes as noted in the license***.
-
 ## Other Models
 
 * If your vintage computer tastes run more towards the TRS-80 line, check out the [Faux TRS](https://github.com/jpasqua/FauxTRS).
@@ -29,3 +27,14 @@ The STL files for FauxNeXT can be found on [printables](https://www.printables.c
 * **NeXTstation**: Create a printable 50% scale NeXTstation to go along with the MPD.
 * **NeXT Cube**: Maybe...
 * **External HDMI Connector**: It might be nice to be able to display on a larger screen when demonstrating the emulator to a group of people. Both the Pi 4 and 5 have a secondary HDMI port could go to an HDMI connector on the back panel.
+
+## License: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+
+[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
